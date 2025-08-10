@@ -12,8 +12,8 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // 如果你的仓库名不是 username.github.io，需要设置 basePath
-  // basePath: '/your-repo-name',
+  // GitHub Pages 需要设置 basePath 为仓库名
+  basePath: '/Blog',
 };
 
 export default nextConfig;
